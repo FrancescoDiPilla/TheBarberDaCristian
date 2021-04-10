@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingTop="10dp"
+    android:paddingRight="10dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/cardshape"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvUser"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/testi"
+                android:ems="10"
+                android:gravity="center"
+                android:inputType="textPersonName"
+                android:text="User"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/etUser"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:inputType="textPersonName"
+                android:maxLines="1"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textColor="#ffffff"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/cardshape"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvEmail"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/testi"
+                android:ems="10"
+                android:gravity="center"
+                android:inputType="textPersonName"
+                android:text="Email"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/etEmail"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:inputType="textWebEmailAddress"
+                android:maxLines="1"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textColor="#ffffff"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/cardshape"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvTel"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/testi"
+                android:ems="10"
+                android:gravity="center"
+                android:inputType="textPersonName"
+                android:text="Tel."
+                android:textColor="#FFFFFF"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/etTel"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:inputType="phone"
+                android:maxLines="1"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textColor="#ffffff"
+                android:textSize="24sp" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <Button
+            android:id="@+id/confermaMoodifiche"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="textPersonName"
+            android:text="Conferma"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/annullamodifiche"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="textPersonName"
+            android:text="Annulla"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</LinearLayout>

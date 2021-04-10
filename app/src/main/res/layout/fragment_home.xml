@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="390dp"
+        android:layout_height="343dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginRight="9dp"
+        android:background="@drawable/calendar_shape"
+        android:dateTextAppearance="@style/CustomCalendarDay"
+        android:minDate="12/31/2020"
+        android:theme="@style/CustomCalendarMonth"
+        android:weekDayTextAppearance="@style/CustomCalendarWeek"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/prenotazioni"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="1dp"
+        android:background="@drawable/testi"
+        android:gravity="center_horizontal"
+        android:hint="@string/edittext_hint"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#5A5A5A"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/calendarView" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="279dp"
+        android:layout_height="123dp"
+        android:layout_marginTop="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/prenotazioni"
+        app:srcCompat="@drawable/scritta" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

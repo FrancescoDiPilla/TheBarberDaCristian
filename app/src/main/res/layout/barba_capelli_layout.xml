@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/dialog_shape">
+
+
+    <LinearLayout
+        android:id="@+id/beard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/cardshape2"
+        android:gravity="center_vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/img_barba"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            android:src="@drawable/ic_barba" />
+
+        <TextView
+            android:id="@+id/barba"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            android:text="Barba"
+            android:textColor="#FFFFFF"
+            android:textSize="26sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/hair"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/cardshape2"
+        android:gravity="center_vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/beard">
+
+        <ImageView
+            android:id="@+id/img_capelli"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            android:src="@drawable/ic_capelli" />
+
+        <TextView
+            android:id="@+id/capellli"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            android:text="Capelli"
+            android:textColor="#FFFFFF"
+            android:textSize="26sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/both"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/cardshape2"
+        android:gravity="center_vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/hair">
+
+        <ImageView
+            android:id="@+id/img_entrambi"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            android:src="@drawable/ic_entrambi" />
+
+        <TextView
+            android:id="@+id/entrambi"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            android:text="Entrambi"
+            android:textColor="#FFFFFF"
+            android:textSize="26sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/special"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/cardshape2"
+        android:gravity="center_vertical"
+        android:paddingRight="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/both">
+
+        <ImageView
+            android:id="@+id/imgspcial"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            android:src="@drawable/ic_pennello" />
+
+        <TextView
+            android:id="@+id/trattamenti"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            android:text="Trattamenti Speciali"
+            android:textColor="#FFFFFF"
+            android:textSize="26sp" />
+
+        <Button
+            android:id="@+id/info"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/button_round"
+            android:text="?"
+            android:textColor="#ffffff" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

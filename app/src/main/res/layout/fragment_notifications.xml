@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/notifictions"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/profile"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/prof"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/cardshape2"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:id="@+id/profImage"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:src="@drawable/ic_profilo" />
+
+            <TextView
+                android:id="@+id/tvProfilo"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Profilo"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/messaggi"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/profile">
+
+        <LinearLayout
+            android:id="@+id/messa"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/cardshape2"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:id="@+id/messImage"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:src="@drawable/ic_messaggi" />
+
+            <TextView
+                android:id="@+id/tvMessaggi"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Messaggi"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/appuntamenti"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/messaggi">
+
+        <LinearLayout
+            android:id="@+id/appunta"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/cardshape2"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:id="@+id/calImage"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:src="@drawable/ic_calendario" />
+
+            <TextView
+                android:id="@+id/tvAppuntamenti"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Appuntamenti"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/ordini"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/appuntamenti">
+
+        <LinearLayout
+            android:id="@+id/ordi"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/cardshape2"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:id="@+id/ordImage"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:src="@drawable/ic_carrello_bianco" />
+
+            <TextView
+                android:id="@+id/tvOrdini"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Ordini"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

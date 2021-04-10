@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Prodotto"
+            android:textColor="@color/colorPrimary"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="textPersonName"
+            android:text="Qt."
+            android:textColor="@color/colorPrimary"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <TextView
+            android:id="@+id/tvProdotto1"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/testi"
+            android:gravity="center"
+            android:text="Prodotto 1"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/etProdotto1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="textPersonName"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <TextView
+            android:id="@+id/tvProdotto2"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/testi"
+            android:gravity="center"
+            android:text="Prodotto 2"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/etProdotto2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="textPersonName"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <TextView
+            android:id="@+id/tvProdotto3"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/testi"
+            android:gravity="center"
+            android:text="Prodotto 3"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/etProdotto3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="textPersonName"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <TextView
+            android:id="@+id/tvProdotto4"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/testi"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Prodotto 4"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/etProdotto4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="textPersonName"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <Button
+            android:id="@+id/confermaOrdine"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="textPersonName"
+            android:text="Conferma"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/annulla"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="textPersonName"
+            android:text="Annulla"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</LinearLayout>

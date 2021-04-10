@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">The Barber</string>
+    <string name="title_home">Prenota</string>
+    <string name="title_dashboard">Store</string>
+    <string name="title_notifications">Altro</string>
+
+    <string name="edittext_hint"><font size="30">Non hai prenotazioni</font></string>
+</resources>

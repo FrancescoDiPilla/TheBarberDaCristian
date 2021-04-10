@@ -1,0 +1,37 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="CustomCalendarMonth" parent="AppTheme">
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="CustomCalendarDay" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="CustomCalendarWeek" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+
+    <style name="full_screen_dialog" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+
+</resources>

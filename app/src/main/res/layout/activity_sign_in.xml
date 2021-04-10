@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cL"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="193dp"
+        android:layout_height="167dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="80dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/NomeCognome"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="1dp"
+        android:background="@drawable/testi"
+        android:gravity="center_horizontal"
+        android:hint="Nome e Cognome"
+        android:inputType="text"
+        android:maxLines="1"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#5A5A5A"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageView2" />
+
+    <EditText
+        android:id="@+id/nuovaEmail"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="1dp"
+        android:background="@drawable/testi"
+        android:gravity="center_horizontal"
+        android:hint="Email"
+        android:inputType="text"
+        android:maxLines="1"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#5A5A5A"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/NomeCognome" />
+
+    <EditText
+        android:id="@+id/nuovaPass"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="1dp"
+        android:background="@drawable/testi"
+        android:gravity="center_horizontal"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#5A5A5A"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/nuovaEmail" />
+
+    <EditText
+        android:id="@+id/telefono"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="1dp"
+        android:background="@drawable/testi"
+        android:gravity="center_horizontal"
+        android:hint="Telefono"
+        android:inputType="text|phone"
+        android:maxLines="1"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#5A5A5A"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/nuovaPass" />
+
+    <Button
+        android:id="@+id/btnSignin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="161dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="161dp"
+        android:background="@drawable/button_grey"
+        android:inputType="text"
+        android:text="Registrati"
+        android:textColor="#ffffff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/telefono" />
+
+    <TextView
+        android:id="@+id/acced"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="136dp"
+        android:text="Sei già registrato? Accedi qui!"
+        android:textColor="@color/colorAccent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnSignin" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
